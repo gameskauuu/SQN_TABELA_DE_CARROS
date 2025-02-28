@@ -20,3 +20,12 @@ create table CARROS(
  ('camaro','chevrolet','1967-01-01','649.900','amarelo','2023-09-22','461','15');
  
  select * from CARROS;
+
+*git branch nova-funcionalidade
+
+create table clientes
+ ID INTEGER PRIMARY KEY AUTOINCREMENT,
+ NOMME_DO_CARRO VARCHAR (200) NOT NULL,
+ NOME_DO_CLINENTE VARCHAR (200) NOT NULL,
+ DATA_DE_ENTREGA DATE NOT NULL
+ );

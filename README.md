@@ -23,9 +23,14 @@ create table CARROS(
 
 *git branch nova-funcionalidade
 
-create table clientes
+create table clientes(
  ID INTEGER PRIMARY KEY AUTOINCREMENT,
- NOMME_DO_CARRO VARCHAR (200) NOT NULL,
- NOME_DO_CLINENTE VARCHAR (200) NOT NULL,
- DATA_DE_ENTREGA DATE NOT NULL
+ NOME_DO_CARRO VARCHAR (200) NOT NULL,
+ NOME_DO_CLINENTE VARCHAR (200),
+ DATA_DE_ENTREGA DATE
  );
+
+ git pull origin main 
+
+ 
+
